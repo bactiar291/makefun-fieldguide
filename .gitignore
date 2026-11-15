@@ -1,0 +1,35 @@
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*keypair*
+wallet*.json
+credentials*
+secrets*
+
+# Native transcripts belong in the private submission bundle, not this ad
+transcripts/
+transcripts*
+*sessions*
+*.jsonl
+*.log
+logs/
+.codex/
+.hermes/
+.claude/
+
+# Local tools, caches and generated QA output
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+test-results/
+playwright-report/
+output/
+outputs/
+.DS_Store
